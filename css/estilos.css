@@ -1,0 +1,151 @@
+/* Variables  */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+:root{
+    --green-color:#7ACC2D;
+    --white-color: white;
+    --black-color: black;
+    
+    --space: 10px;
+
+    --normal: 12px; 
+    --box: 0px 0 2px 1px #e6e5e9;       
+}
+
+html,body{
+    padding: 0;
+    margin: 0;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: var(--green-color);
+    padding: 16px;
+    color: var(--white-color);
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+nav li{
+    padding-left: 20px;
+}
+nav li a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+nav li a:hover{
+    color: var(--white-color);
+}
+
+/* Secion del main */  
+
+.main_section{
+    padding: 15%;
+    text-align: center;
+}
+
+.products{
+    background-image: url("../images/curve.png");
+    background-size: cover;
+    background-position: center top;
+    height: 50px;
+    padding: 20%;
+    display: flex;
+}
+
+.product{
+    padding: var(--space);
+    margin-top: -240px;
+}
+
+.product .content{
+    background-color: var(--white-color);
+    box-shadow: 0 0 1px #c1bcbc;
+    padding: var(--space);
+}
+.img_content{
+    text-align: center;
+}
+
+.main_button{
+    background-color: var(--green-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: 17px;
+    color: var(--white-color);
+    border:0 ;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover{
+    background-color: #5e9e22;
+
+}
+.main_novedades{
+    display: flex;
+    
+    justify-content: center;
+    padding: 10%;
+    /*padding: 10px 20% 10px 20%; */
+}
+.novedad{
+    padding: 20px;
+}
+.content1{
+    margin: 40px;
+    padding: 20px;
+    box-shadow: 0 0 1px #c1bcbc;
+    width: 200px;
+}
+.content1 h3{
+    font-size: 20px;
+}
+.img_content1{
+    text-align: center;
+}
+.titulo-menciones{
+    text-align: center;
+    font-size: 20px;
+    margin: 50px 0;
+}
+.image_mencion{
+    margin: 0;
+    padding: 0;
+}
+.image_mencion img{
+    
+    width: 230px;
+    height: 130px;
+    text-align: center;
+    
+}
+.menciones{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.mencion{
+    width: 230px;
+    margin: 20px;
+    box-shadow: 0 0 3px #c1bcbc;
+}
+
+.mencion h3, .mencion p{
+    margin: 5px 10px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    background-color: #313337;
+    color: #FFFFFF;
+}
