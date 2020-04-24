@@ -20,6 +20,11 @@ html,body{
     font-family: 'Open Sans', sans-serif;
 }
 
+label{
+    font-size: var(--normal);
+    padding-bottom: 540px;
+}
+
 nav{
     display: flex;
     background-color: var(--green-color);
@@ -135,12 +140,43 @@ nav li a:hover{
 .mencion{
     width: 230px;
     margin: 20px;
-    box-shadow: 0 0 3px #c1bcbc;
+    box-shadow: 0 0 3px 1px #c1bcbc;
 }
 
 .mencion h3, .mencion p{
     margin: 5px 10px;
 }
+
+.modulo_pago{
+    background-color: var(--white-color);
+    box-shadow: 0 0 3px 1px #c1bcbc;
+    padding: var(--space);
+    height: fit-content;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.data {
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.modulo_pago .main_button{
+    margin-top: 10px;
+     
+}
+.modulo_pago_images{
+    
+    text-align: center;
+    
+}
+
+
 footer{
     display: flex;
     justify-content: space-between;
@@ -148,4 +184,7 @@ footer{
     padding: 10px 16px;
     background-color: #313337;
     color: #FFFFFF;
+}
+.contact a{
+    color: green;
 }
